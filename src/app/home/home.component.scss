@@ -1,0 +1,58 @@
+.container {
+  margin-top: 170px;
+}
+
+.texth1 {
+  font-size: 22px;
+  font-weight: 800;
+  font-weight: bolder;
+  color: #a9a9a9;
+  font-style: oblique;
+}
+
+.text2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+
+svg {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+svg {
+  margin-top: -260px;
+}
+
+.imagemGitHub {
+  // margin-top: 120px;
+  width: 270px;
+  height: 270px;
+  margin-left: 25%;
+}
+
+text {
+  font-weight: 800;
+  font-size: 50px;
+  font-style: oblique;
+}
+
+.btn {
+  margin-top: -400px;
+  width: 300px;
+  height: 50px;
+  border-radius: 0px;
+  color: black;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #a9a9a9;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 10px;
+cursor: grab;
+}

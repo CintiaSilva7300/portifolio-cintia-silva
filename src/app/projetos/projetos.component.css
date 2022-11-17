@@ -1,0 +1,35 @@
+.container {
+  margin-top: 50px;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.text1 {
+  text-align: center;
+  color: white;
+  margin-left: 60px;
+  font-weight: 800;
+  font-size: 50px;
+  margin-top: 10px;
+  padding: 5px;
+  margin-top: 90px;
+}
+
+.card {
+   margin-top: 50px;
+   height: 160px;
+   background-color: red;
+   margin: 10px;
+}
+
+.img {
+  margin-top: 0px;
+  /* height: 250px; */
+  width: 100px;
+}
+
+.card:hover {
+  border: 12pt;
+}
