@@ -11,3 +11,38 @@
   padding: 5px;
   margin-top: 90px;
 }
+
+.bootstrap {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.git {
+  color: aliceblue;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.javascript {
+  height: 100px;
+  width: 190px;
+  margin: 10px;
+}
+
+.react {
+  height: 120px;
+  width: 130px;
+  margin: 10px;
+}
+
+.angular {
+  height: 120px;
+  width: 130px;
+  margin: 10px;
+}
+
+.imagens{
+  margin-left: 260px;
+}
