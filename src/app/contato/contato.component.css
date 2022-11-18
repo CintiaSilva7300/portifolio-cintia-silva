@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.contato {
+  text-align: center;
+  color: white;
+  margin-left: 60px;
+  font-weight: 800;
+  font-size: 50px;
+  /* padding: 5px; */
+  margin-top: 90px;
+}
+
+.card {
+  margin-top: 60px;
+  width: 30%;
+  background-color: #a9a9a9;
+  display: flex;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.bi {
+  color:white;
+  height: 30px;
+  width: 20px;
+}
+
+.bi-send-slash {
+  margin-right: 320px;
+}
+
+.gmail {
+  color:rgb(0, 0, 0);
+margin-left: 0px;
+margin-top: -25px;
+font-style: oblique;
+font-weight: bolder;
+font-weight: 800;
+}
+
+.gmail:hover {
+ cursor: not-allowed;
+}
+
+
+.linkedintext {
+  color:rgb(0, 0, 0);
+margin-left: 15px;
+margin-top: -25px;
+font-style: oblique;
+font-weight: bolder;
+font-weight: 800;
+text-decoration: none;
+}
+
+.githubtext {
+  color:rgb(0, 0, 0);
+margin-left: 15px;
+margin-top: -25px;
+font-style: oblique;
+font-weight: bolder;
+font-weight: 800;
+text-decoration: none;
+}
+
+.githubtext:hover {
+  cursor: pointer;
+}
