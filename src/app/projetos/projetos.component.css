@@ -18,18 +18,14 @@ align-items: center;
 }
 
 .card {
-   margin-top: 50px;
-   height: 160px;
-   background-color: red;
    margin: 10px;
 }
 
 .img {
   margin-top: 0px;
-  /* height: 250px; */
   width: 100px;
 }
 
 .card:hover {
-  border: 12pt;
+  border: 25pt;
 }

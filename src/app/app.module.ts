@@ -9,9 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { ProjetosComponent } from './projetos/projetos.component';
 import { ContatoComponent } from './contato/contato.component';
 import { TecnologiasComponent } from './tecnologias/tecnologias.component';
+import { MensagemComponent } from './mensagem/mensagem.component';
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, HomeComponent, ProjetosComponent, ContatoComponent, TecnologiasComponent],
+  declarations: [AppComponent, NavBarComponent, HomeComponent, ProjetosComponent, ContatoComponent, TecnologiasComponent, MensagemComponent],
   imports: [BrowserModule, RouterModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

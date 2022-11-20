@@ -10,12 +10,14 @@ export class TecnologiasComponent implements OnInit {
   Imagejavascript: string;
   Imagereact: string;
   Imageangular: string;
+  Imagenode: string;
 
   constructor() {
     this.ImageBootstrap = '/assets/img/bootstrap.png';
     this.Imagejavascript = '/assets/img/javascript.png';
     this.Imagereact = '/assets/img/react.png';
     this.Imageangular = '/assets/img/eangular.png';
+    this.Imagenode = '/assets/img/Imagenode.png';
   }
 
   ngOnInit(): void {}
