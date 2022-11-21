@@ -1,17 +1,12 @@
 .container {
   display: flex;
-  justify-content: start;
   margin-top: 30px;
-}
-
-.mensagem {
-  /* width: 30%; */
+  /* justify-content: start; */
 }
 
 .text {
   text-align: center;
   margin-top: 110px;
-
   color: white;
   font-weight: 800;
   font-size: 40px;
@@ -67,4 +62,8 @@
 
 .row {
   color: white;
+}
+
+.card-body {
+  height: 50px;
 }

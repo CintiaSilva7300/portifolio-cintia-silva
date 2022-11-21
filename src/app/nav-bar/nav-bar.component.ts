@@ -6,7 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-bar.component.scss'],
 })
 export class NavBarComponent implements OnInit {
-  constructor() {}
+  ImageTypescript: String;
+  ImageInstagram: String;
+  ImageGmail: String;
+  ImageGit: String;
+
+  constructor() {
+    this.ImageTypescript = '/assets/img/typescript.png';
+    this.ImageInstagram = '/assets/img/instagram.png';
+    this.ImageGmail = '/assets/img/gmail3.png';
+    this.ImageGit = '/assets/img/githubImg.png';
+  }
 
   ngOnInit(): void {}
 }
