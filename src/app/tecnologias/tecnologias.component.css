@@ -49,3 +49,13 @@
   margin: 10px;
   color: aliceblue;
 }
+
+@media screen and (max-width: 580px) {
+  .container{
+    display: inline-block;
+    margin: 20px;
+  }
+  .tecnologia{
+    font-size: 25px;
+  }
+}

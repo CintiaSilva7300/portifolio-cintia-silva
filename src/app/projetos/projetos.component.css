@@ -29,3 +29,17 @@ align-items: center;
 .card:hover {
   border: 25pt;
 }
+
+@media screen and (max-width: 580px) {
+ .container{
+  display: inline-block;
+  margin: 0px;
+ }
+ .text1{
+  font-size: 22px;
+  margin-left: 0px;
+ }
+ .card{
+  margin: 20px;
+ }
+}
