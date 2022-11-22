@@ -23,11 +23,11 @@
   margin-left: 25%;
 }
 
-text {
-  font-weight: 800;
-  font-size: 50px;
-  font-style: oblique;
-}
+// text {
+//   font-weight: 800;
+//   font-size: 50px;
+//   font-style: oblique;
+// }
 
 .btn {
   margin-top: 50px;
@@ -45,10 +45,9 @@ text {
   text-transform: uppercase;
   font-weight: 600;
   border-radius: 10px;
-cursor: grab;
+  cursor: grab;
 }
 
-// animation text
 .animation{
   animation: glitch 1s linear infinite;
   font-size: 20px;
@@ -106,5 +105,38 @@ cursor: grab;
   }
   62%{
     transform: translate(-22px,5px) skew(21deg);
+  }
+}
+
+// mobile
+
+
+@media screen and (max-width: 500px) {
+  .text2{
+    font-size: 22px;
+    text-align: center;
+  }
+  .texth1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    margin-top: 35%;
+    align-items: center;
+    width: 100%;
+  }
+  .animation{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 17px;
+  }
+  .imagemGitHub {
+    margin-top: 10px;
+    margin-left: 10%;
+  }
+  .btn {
+    margin-top: 20px;
+    margin-left: 22px;
   }
 }
