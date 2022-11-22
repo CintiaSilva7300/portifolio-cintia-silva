@@ -8,8 +8,8 @@
   text-align: center;
   margin-top: 110px;
   color: white;
-  font-weight: 800;
-  font-size: 40px;
+  font-weight: 900;
+  font-size: 50px;
 }
 
 .card {
@@ -66,4 +66,30 @@
 
 .card-body {
   height: 50px;
+}
+
+/* mobile */
+@media screen and (max-width: 580px) {
+  .text {
+    margin-top: 90px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+  .container{
+    padding: 0px;
+  }
+  .card {
+    width: 300px;
+    margin-left: 48px;
+    border-radius: 10px;
+  }
+  .card-body {
+    display: flex;
+  }
+  .container{
+    padding: 0px;
+    width: 10px;
+    margin: 0px;
+  }
 }

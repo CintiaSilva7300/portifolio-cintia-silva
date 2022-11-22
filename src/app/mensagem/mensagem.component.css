@@ -46,4 +46,21 @@ form {
     align-items: center;
     width: 20em;
   }
+  .waves-effect{
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: flex-start;
+  }
+  .container{
+    width: 380px;
+  }
+  .material-icons{
+    padding: 0px;
+    visibility: hidden;
+  }
+  .btn{
+    margin-left: 35px;
+  }
+
 }
