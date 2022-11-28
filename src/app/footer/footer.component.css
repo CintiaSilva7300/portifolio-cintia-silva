@@ -1,0 +1,19 @@
+#footer {
+  background-color: #212020;
+
+}
+
+.container {
+ /* height: 200px; */
+}
+
+.btn {
+  background-color: transparent;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 580px) {
+  .container {
+    font-weight: bold;
+  }
+}

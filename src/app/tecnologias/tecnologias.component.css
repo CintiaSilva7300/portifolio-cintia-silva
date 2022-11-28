@@ -58,4 +58,8 @@
   .tecnologia{
     font-size: 25px;
   }
+  .card-img-top{
+      flex-grow: 1;
+
+  }
 }

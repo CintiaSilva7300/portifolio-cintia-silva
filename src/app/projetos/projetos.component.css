@@ -19,15 +19,22 @@ align-items: center;
 
 .card {
    margin: 10px;
+   flex-grow: 1;  /*  alinha de acordo com a tela e tamanhos iguaias*/
 }
 
 .img {
   margin-top: 0px;
-  width: 100px;
 }
 
 .card:hover {
   border: 25pt;
+  border-radius: 10px;
+}
+
+#appFinanca {
+  height: 155px;
+  overflow-y: scroll;
+
 }
 
 @media screen and (max-width: 580px) {
@@ -42,4 +49,5 @@ align-items: center;
  .card{
   margin: 20px;
  }
+
 }

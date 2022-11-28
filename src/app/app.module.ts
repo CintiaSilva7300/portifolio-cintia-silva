@@ -10,9 +10,10 @@ import { ProjetosComponent } from './projetos/projetos.component';
 import { ContatoComponent } from './contato/contato.component';
 import { TecnologiasComponent } from './tecnologias/tecnologias.component';
 import { MensagemComponent } from './mensagem/mensagem.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, HomeComponent, ProjetosComponent, ContatoComponent, TecnologiasComponent, MensagemComponent],
+  declarations: [AppComponent, NavBarComponent, HomeComponent, ProjetosComponent, ContatoComponent, TecnologiasComponent, MensagemComponent, FooterComponent],
   imports: [BrowserModule, RouterModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
