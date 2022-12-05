@@ -1,5 +1,6 @@
 .container {
   margin-top: 10px;
+  /* display: flex; */
 }
 
 .tecnologia {
@@ -9,7 +10,7 @@
   font-weight: 800;
   font-size: 50px;
   padding: 5px;
-  margin-top: 90px;
+  margin-top: 110px;
 }
 
 .bootstrap {
@@ -51,15 +52,17 @@
 }
 
 @media screen and (max-width: 580px) {
-  .container{
+  .container {
     display: inline-block;
     margin: 20px;
   }
-  .tecnologia{
+
+  .tecnologia {
     font-size: 25px;
   }
-  .card-img-top{
-      flex-grow: 1;
+
+  .card-img-top {
+    flex-grow: 1;
 
   }
 }
