@@ -21,6 +21,7 @@ export class ProjetosComponent implements OnInit {
     this.ImagealuraClole = '/assets/aluraClone/aluraclone2.PNG';
 
     this.ImageAppFinancas = '/assets/img/appfinanca.png';
+
   }
 
   ngOnInit(): void {}
