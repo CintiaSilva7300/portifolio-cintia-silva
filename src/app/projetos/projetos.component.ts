@@ -12,6 +12,9 @@ export class ProjetosComponent implements OnInit {
   ImagePortifolio: string;
   ImagealuraClole: string;
   ImageAppFinancas: string;
+  ImageNSecreto: string;
+  ImagePoke: string;
+  ImageTelaLogin: string;
 
   constructor() {
     this.ImagePath = '/assets/marketplace/capituranovahome.PNG';
@@ -21,6 +24,9 @@ export class ProjetosComponent implements OnInit {
     this.ImagealuraClole = '/assets/aluraClone/aluraclone2.PNG';
 
     this.ImageAppFinancas = '/assets/img/appfinanca.png';
+    this.ImageNSecreto = '/assets/img/numeroSecreto.png';
+    this.ImagePoke = '/assets/img/pokedex.png';
+    this.ImageTelaLogin = '/assets/img/telaDeLogin.png';
 
   }
 
